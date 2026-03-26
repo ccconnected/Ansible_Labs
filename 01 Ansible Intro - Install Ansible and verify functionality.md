@@ -3,7 +3,6 @@
 
 a) Install Ansible
 Your team has decided they need a tool they can use to control and operate the many servers you have in your environment. You have been tasked with evaluating Ansible.
-
 Install Ansible and put the version output in a file called /root/version.
 
 
@@ -20,7 +19,6 @@ ansible --version >> /root/version
 ------------------------------------------------------------------------------
 b) Check modules and syntax
 Check ansible-doc and see how many modules you have. Then read the documentation of modules setup and copy.
-
 Save the number of modules you have into the file /root/modules
 
 
@@ -39,4 +37,6 @@ Read the documentation on copy module (may have to hit q to exit)
 
 ansible-doc -s copy
 
+
+Look at you, learning Ansible! You solved this challenge!
 ```
